@@ -1,0 +1,22 @@
+/* YourComponent.css */
+
+.section {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .background-text {
+    position: absolute;
+    top: 6%;
+    left: 30%;
+    transform: translate(-40%, -20%);
+    font-size: 5rem; /* Adjust the font size as needed */
+    color: hsla(0, 2%, 26%, 0.322); /* Light gray color */
+    pointer-events: none; /* Prevents the background text from blocking interaction with the content */
+  }
+  .background-strip {
+    background-color:#e8eaebfd;  /* Replace with your desired color code */
+    padding: 80px; /* Adjust padding as needed */
+    border-radius: 15px; /* Add border-radius for a rounded rectangle effect */
+  }
+  

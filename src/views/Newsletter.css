@@ -1,0 +1,14 @@
+.section {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .background2-text {
+    position: absolute;
+    top: 394%;
+    left: 50%;
+    transform: translate(-40%, -20%);
+    font-size: 7rem; /* Adjust the font size as needed */
+    color: hsla(0, 2%, 26%, 0.322); /* Light gray color */
+    pointer-events: none; /* Prevents the background text from blocking interaction with the content */
+  }
